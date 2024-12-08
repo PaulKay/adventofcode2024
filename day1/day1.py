@@ -14,3 +14,11 @@ for n1, n2 in zip(num1, num2):
     sum = sum + d
 
 print(sum)
+
+# part 2
+sum2 = 0
+for n in num1:
+    n_count = num2.count(n)
+    sum2 = sum2 + n * n_count
+
+print(sum2)
